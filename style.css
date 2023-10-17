@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Foldit:wght@100;400;800&family=Hanken+Grotesk:ital,wght@0,700;0,800;1,700;1,800&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  height: 1080px;
+  background-color: #fff;
+  margin-top: 150px;
+}
+
+.section {
+  max-width: 738px;
+  height: 512px;
+  border-radius: 30px;
+  background: whitesmoke;
+  display: flex;
+}
+.section .image {
+  max-width: 368px;
+  height: 512px;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #6643FF 0%, #312CEA 100%);
+}
+.section .image h4 {
+  color: #CEC6FF;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.22px;
+  padding: 38px 120px;
+}
+.section .image .ellipse {
+  max-width: 204px;
+  height: 204px;
+  border-radius: 50%;
+  background-color: #4D22C9;
+}
+.section .image .ellipse p {
+  color: #857CF3;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 49px 58px;
+  text-align: center;
+}
+.section .image .ellipse p span {
+  color: #FFF;
+  font-size: 70px;
+}
+.section .image h1 {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 55px;
+  padding-top: 27px;
+}
+.section .image h5 {
+  margin-top: 18px;
+  width: 250px;
+  margin-left: -30px;
+  color: #C0C1FF;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: -0.425px;
+}
+.section .words div {
+  max-width: 290px;
+  height: 56px;
+  border-radius: 10px;
+  padding: 18px;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.section .words img {
+  margin-right: 19px;
+}
+.section .words span {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 77px;
+}
+.section .words b {
+  color: #969198;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+.section .words h1 {
+  color: #323D58;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 39px 227px 40px 39px;
+}
+.section .words .reac {
+  background: #FFF6F5;
+}
+.section .words .reac span {
+  color: #E1676D;
+}
+.section .words .memory {
+  background: #FFFBF2;
+}
+.section .words .memory span {
+  color: #DDBB64;
+}
+.section .words .verbal {
+  background: #F2FBFA;
+}
+.section .words .verbal span {
+  color: #2CA989;
+}
+.section .words .visual {
+  background: #F3F3FD;
+}
+.section .words .visual span {
+  color: #3742CE;
+}
+.section .words button {
+  margin-left: 40px;
+  margin-top: 26px;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  width: 290px;
+  height: 56px;
+  border-radius: 40px;
+  background: linear-gradient(180deg, #6543FF 0%, #0401FF 100%);
+}
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    margin-top: 10px;
+  }
+  .section {
+    max-width: 375px;
+    height: 809px;
+    display: block;
+  }
+  .section .image {
+    max-width: 375px;
+    height: 356px;
+    border-radius: 0px 0px 30px 30px;
+  }
+  .section .image h4 {
+    font-size: 20px;
+    padding: 25px 120px;
+  }
+  .section .image .ellipse {
+    max-width: 150px;
+    height: 150px;
+  }
+  .section .image .ellipse p {
+    font-size: 15px;
+    padding: 35px 49px;
+  }
+  .section .image .ellipse p span {
+    font-size: 50px;
+  }
+  .section .image h1 {
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+  .section .image h5 {
+    margin-top: 10px;
+    font-size: 15px;
+    width: 280px;
+    margin-left: -50px;
+  }
+}/*# sourceMappingURL=style.css.map */
